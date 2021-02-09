@@ -1,0 +1,92 @@
+[
+    {
+        "name": "sun",
+        "id": 0,
+        "src": "src/media/img/sun.png",
+        "starType": "yellow dwarf",
+        "age": "~4.5 billion years",
+        "distanceFromGalacticCenter": "26.000 light years",
+        "lengthFromYear": "230 milion eart year",
+        "info": "The Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of our solar system. Its gravity holds everything from the biggest planets to tiny debris in its orbit."
+    },
+    {
+        "name": "mercury",
+        "id": 1,
+        "src": "src/media/img/mercury.png",
+        "distanceFromSun": "30.609.250 km",
+        "LengthOfYear": "88 earth days",
+        "planerType": "terrestrial",
+        "satellite": 0,
+        "info": "Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days"
+    },
+    {
+        "name": "venus",
+        "id": 2,
+        "src": "src/media/img/venus.png",
+        "distanceFromSun": "67.611.906 km",
+        "LengthOfYear": "225 earth days",
+        "planerType": "terrestrial",
+        "satellite": 0,
+        "info": "Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system."
+    },
+    {
+        "name": "earth",
+        "id": 3,
+        "src": "src/media/img/earth.png",
+        "distanceFromSun": "91.672.167 km",
+        "LengthOfYear": "365 earth days",
+        "planerType": "terrestrial",
+        "satellite": 1,
+        "info": "Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface."
+    },
+    {
+        "name": "mars",
+        "id": 4,
+        "src": "src/media/img/mars.png",
+        "distanceFromSun": "144.689.013 km",
+        "LengthOfYear": "687 earth days",
+        "planerType": "terrestrial",
+        "satellite": 2,
+        "info": "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was—billions of years ago—wetter and warmer, with a thicker atmosphere."
+    },
+    {
+        "name": "jupiter",
+        "id": 5,
+        "src": "src/media/img/jupiter.png",
+        "distanceFromSun": "472.533.160 km",
+        "LengthOfYear": "4.333 earth days",
+        "planerType": "gas giant",
+        "satellite": 79,
+        "info": "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth."
+    },
+    {
+        "name": "saturn",
+        "id": 6,
+        "src": "src/media/img/saturn.png",
+        "distanceFromSun": "927.801.941 km",
+        "LengthOfYear": "10.759 earth days",
+        "planerType": "gas giant",
+        "satellite": 62,
+        "info": "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's."
+    },
+    {
+        "name": "uranus",
+        "id": 7,
+        "src": "src/media/img/uranus.png",
+        "distanceFromSun": "1.853.101.000 km",
+        "LengthOfYear": "30.687 earth days",
+        "planerType": "ice giant",
+        "satellite": 27,
+        "info": "Uranus—seventh planet from the Sun—rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side."
+    },
+    {
+        "name": "neptune",
+        "id": 8,
+        "src": "src/media/img/neptune.png",
+        "distanceFromSun": "2.781.821.473 km",
+        "LengthOfYear": "60.190 earth days",
+        "planerType": "ice giant",
+        "satellite": 14,
+        "info": "Neptune—the eighth and most distant major planet orbiting our Sun—is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations, rather than by telescope."
+    }
+]
