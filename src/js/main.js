@@ -146,44 +146,6 @@ universeTransform.addEventListener("click", () => {
 
 
 
-
-// let bool = true;
-// universeTransform.addEventListener("click", () => {
-//     if (bool) {
-//         universeTransform.setAttribute("class", "universe__transform universe__transform_2d");
-//         universeCont.style["transform-style"] = "preserve-3d";
-//         planet.forEach((item) => {
-//             item.style["transform-style"] = "preserve-3d";
-//         })
-//         anim3d(0, 15);
-//         anim3d(1, 22);
-//         anim3d(2, 30);
-//         anim3d(3, 40);
-//         anim3d(4, 51);
-//         anim3d(5, 63);
-//         anim3d(6, 75);
-//         anim3d(7, 88);
-//         sun.style.transform = "rotateX(-60deg) translate(-50%, -30%)";
-//         universe.style["transform-style"] = "preserve-3d";
-//         universe.style["transform"] = "scale(1.5) rotateX(60deg)";
-//     }
-//     else {
-//         universeTransform.setAttribute("class", "universe__transform universe__transform_3d")
-//         anim2d(0, 15);
-//         anim2d(1, 22);
-//         anim2d(2, 30);
-//         anim2d(3, 40);
-//         anim2d(4, 51);
-//         anim2d(5, 63);
-//         anim2d(6, 75);
-//         anim2d(7, 88);
-//         sun.style.transform = "translate(-50%, -50%)";
-//         universe.style["transform"] = "scale(1)";
-//     }
-//     bool = !bool;
-// })
-
-
 function anim3d(item, time) {
     planetImg[item].style.animation = `roundPlanet3d linear ${time}s infinite`;
     planet[item].style.animation = `roundMove linear ${time}s infinite`
